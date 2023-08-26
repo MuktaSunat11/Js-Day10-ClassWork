@@ -5,6 +5,7 @@ This is a simple HTML, CSS, and JavaScript project that creates a circle that ca
 
 The HTML code creates a container div with a circle div inside it. The circle div has a shape div inside it. The shape div is initially a circle, but can be changed to a triangle by clicking the "change shape" button.
 
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,9 +30,11 @@ The HTML code creates a container div with a circle div inside it. The circle di
 </body>
 </html>
 
+
 # CSS
 
 The CSS code styles the container div, the circle div, and the shape div. The CSS code styles the container div, the circle div, and the shape div. The shape div is positioned absolutely inside the circle div.
+
 
 *{
     margin:0;
@@ -77,9 +80,12 @@ The CSS code styles the container div, the circle div, and the shape div. The CS
     border-right: 75px solid transparent;
 }
 
+
 # Javascript
 
 The JavaScript code adds event listeners to the "change color" and "change shape" buttons.The "change color" button changes the background color of the circle div to a random color. The "change shape" button changes the shape of the shape div from a circle to a triangle.
+
+
 
 var color = [
     "red",
